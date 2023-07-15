@@ -86,7 +86,7 @@ window.addEventListener("scroll", () => {
   }
   let svg = document.querySelector(".svg")
   let svg_top = svg.getBoundingClientRect().top
-  if ((svg_top * 100) / height < 75) {
+  if ((svg_top * 100) / height < 85) {
     console.log("hi")
     svg.style.width = "100%"
   } else {
