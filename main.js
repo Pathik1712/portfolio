@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
     setTimeout(() => {
       temp.remove()
     }, 1050)
-  }, 5000)
+  }, 3000)
 })
 let text = document.querySelector(".text")
 let n = 0
